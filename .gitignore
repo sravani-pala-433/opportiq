@@ -1,0 +1,29 @@
+
+# dotenv environment variable files
+.env
+
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+#venv
+venv
+#_pycache_
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+
+app.log
+
+#README files
+ALEMBIC_GUIDE.md
+GOOGLE_OAUTH_SETUP.md
+SETUP_SUMMARY.md
+
+
+alembic.ini
+
+
+.idea/
