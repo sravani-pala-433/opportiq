@@ -1,5 +1,7 @@
 uvicorn
 fastapi~=0.116.1
+SQLAlchemy~=2.0.35
+psycopg2-binary~=2.9.9
 pydantic_settings
 perplexityai
 python-jose~=3.3.0
