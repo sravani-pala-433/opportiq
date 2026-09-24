@@ -8,11 +8,6 @@ logger.info("Initializing settings")
 class Settings(BaseSettings):
     DATABASE_URL: str
     SECRET_KEY : str
-    DB_USER : str
-    DB_PASSWORD : str
-    DB_HOST : str
-    DB_NAME : str
-    TEST_DB_NAME : str
 
     # Google OAuth 2.0 Configuration
     GOOGLE_CLIENT_ID: str = ""
