@@ -7,13 +7,9 @@ from core.config.settings import settings
 from sqlalchemy.ext.declarative import declarative_base
 
 logger = get_logger(__name__)
-DB_USER = settings.DB_USER
-DB_PASSWORD = settings.DB_PASSWORD
-DB_HOST = settings.DB_HOST
-DB_NAME = settings.DB_NAME
-TEST_DB_NAME = settings.TEST_DB_NAME
 
-DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}"
+
+DATABASE_URL = settings.DATABASE_URL
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
