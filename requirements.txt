@@ -7,6 +7,7 @@ perplexityai
 python-jose~=3.3.0
 python-multipart
 argon2_cffi
+cryptography~=44.0.0
 pydantic[email]~=2.11.7
 watchdog~=6.0.0
 pytest~=8.4.1
